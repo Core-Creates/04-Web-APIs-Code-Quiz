@@ -7,3 +7,29 @@ h3 {
     color: black;
     font-weight: bolder;
 }
+
+.card{
+    margin: 40px;
+    padding: 20px;
+    border-radius: 20px;
+}
+button{
+    border-radius: 40px;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(0, 102, 255, 0.842);
+    color: white;
+    font-weight: bolder;
+    width: 370px;
+    font-size: 20px;
+}
+
+#questions-section{
+    display: none;
+    
+}
+
+.form-check-input{
+    line-height: 40px;
+    /* margin: 10px; */
+}
