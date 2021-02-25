@@ -44,44 +44,5 @@ function sendMessage() {
 
 }
 
-
-function questions() {
-  const question = [ 
-    { 
-      question: "What is JavaScript?",
-      options { 
-          a:"It is a programming language", 
-          b:"It is a fancy coffee bean", 
-          c:"", 
-          d:"" 
-      },
-      answer: "A" 
-    },
-    { 
-      question: "What is ?", 
-      options { 
-        a:"", 
-        b:"", 
-        c:"", 
-        d:"" 
-      },
-      answer: "C" 
-    },
-
-    {
-      question: "What is Ja?", 
-      options{ 
-        a:"",
-        b:"", 
-        c:"", 
-        d:"" 
-      },
-      answer: "B" 
-    }
-
-   ]
-}
-
-
 mainEl.addEventListener('click', setTime);
 
