@@ -28,8 +28,12 @@ button{
     display: none;
     
 }
+#questio2-div{
+    display: none;
+}
 
 .form-check-input{
     line-height: 40px;
     /* margin: 10px; */
 }
+

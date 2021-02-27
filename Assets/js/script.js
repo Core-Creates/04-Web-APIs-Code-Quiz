@@ -7,8 +7,14 @@ var mainEl = document.getElementById("start-button");
 var noticeEl = document.getElementById("notice");
 
 var questionEl = document.getElementById("question");
+var question2El = document.getElementById("question2-dev");
+
+
 
 document.getElementById("questions-section").style.display = "none";
+// document.getElementById("question1-dev").style.display = "none";
+// question2El.style.display = "none";
+
 
 
 
@@ -18,8 +24,13 @@ function setTime(event) {
   // Sets interval in variable
 
   var timerInterval = setInterval(function() {
-    document.getElementById("button-div").style.display = "none";
+    
     document.getElementById("questions-section").style.display = "inline";
+    document.getElementById("button-div").style.display = "none";
+    document.getElementById("question2-dev").style.display = "none";
+    
+    
+
     secondsLeft--;
     timeEl.textContent = secondsLeft + " seconds left";
 
